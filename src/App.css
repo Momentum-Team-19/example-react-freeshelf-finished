@@ -1,0 +1,27 @@
+body {
+  max-width: 60rem;
+  margin: 1rem auto;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.Book {
+  border: 3px solid #ccccff;
+  border-radius: 1rem;
+  margin: 2rem 0;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.book-detail {
+  padding-right: 10px;
+}
+
+.book-cover-img {
+  justify-self: end;
+}
+
+.book-cover-img img {
+  width: 150px;
+}
